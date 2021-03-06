@@ -10,7 +10,7 @@
 - [Deployed](#deployed)
 - [Languages](#languages)
 - [Screenshot](#screenshot)
-- [Demo] (#demo)
+- [Demo](#demo)
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
