@@ -24,6 +24,7 @@ The back end for an e-commerce site that uses Express.js API, Sequelize, and int
 
 ```
 // TODO
+mysql -u root -p to login
 ```
 
 ## Usage
