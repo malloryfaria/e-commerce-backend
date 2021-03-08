@@ -61,8 +61,7 @@ Use this application to build on the front end for an e-commerce site to this ba
 https://github.com/malloryfaria/e-commerce-backend
 
 ## Demo
-https://example.youtube.com
-
+https://youtu.be/udy89ZhZoEs
 
 ## Languages/Technology Used
 Node, Express.js API, Sequelize, MySQL
