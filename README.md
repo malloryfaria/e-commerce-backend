@@ -9,7 +9,7 @@
 - [Usage](#usage)
 - [Deployed](#deployed)
 - [Languages](#languages)
-- [Screenshot](#screenshot)
+- [Screenshots](#screenshots)
 - [Demo](#demo)
 - [License](#license)
 - [Contributing](#contributing)
@@ -18,18 +18,44 @@
 
 ## Description
 
-The back end for an e-commerce site that uses Express.js API, Sequelize, and interacts with a MySQL database.
+The back end for an e-commerce site that uses Node, Express.js API, Sequelize, and interacts with a MySQL database. You just need to connect the front end to use it.
 
 ## Installation
 
 ```
-// TODO
-mysql -u root -p to login
+// Clone the repository to your local machine using:|
+
+git clone git@github.com:malloryfaria/e-commerce-backend.git
+
+// Install all the dependencies by typing code:
+npm i
+
+// Ensure you have set up MySQL and you have a legacy password to log in with ****
+
+// Create a .env file in the root of the folder and fill out the following with your information:
+DB_NAME='ecommerce_db'
+DB_USER='root'
+DB_PW='examplepassword'
+
+// From the db folder, login to your MySQL using:
+mysql -u root -p
+
+// Then, run this command to create the database:
+source schema.sql;
+
+// Then quit the MySQL shell by typing
+quit;
+
+// Seed the test data into the database by typing:
+npm run seed
+
+// Then use the below command to start the server:
+npm start
+
 ```
 
 ## Usage
-Use this application to build e-commerce back ends.
-
+Use this application to build on the front end for an e-commerce site to this back end.
 
 ## Deployed application link
 https://github.com/malloryfaria/e-commerce-backend
@@ -39,10 +65,11 @@ https://example.youtube.com
 
 
 ## Languages/Technology Used
-Express.js API, Sequelize, MySQL
+Node, Express.js API, Sequelize, MySQL
 
-## Screenshot
-![Application in use](./assets/images/screenshot.jpg?raw=true) <br /><br />
+## Screenshots
+![npm seed command](./assets/images/screenshot2.jpg?raw=true) <br /><br />
+![npm start command](./assets/images/screenshot.jpg?raw=true) <br /><br />
 
 ## License
 
